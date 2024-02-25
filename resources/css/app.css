@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2{
+    font-size: 2.12rem;
+    color: #525252;
+}

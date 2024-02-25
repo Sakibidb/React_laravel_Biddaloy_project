@@ -48,7 +48,7 @@ const Header = () => {
                   <li><Link href="about">About</Link></li>
                   <li><Link href="courses">Courses</Link></li>
                   <li><Link href="blog">Blog</Link></li>
-                  <li><Link href="#">Page</Link></li>
+                  {/* <li><Link href="#">Page</Link></li> */}
                   <li><Link href="contact">Contact</Link></li>
                 </ul>
                 <div className="search_button"><i className="fa fa-search" aria-hidden="true" /></div>

@@ -35,6 +35,12 @@ Route::get('/', function(){
 Route::get('/about', function(){
     return Inertia::render('About');
 });
+Route::get('/blog', function(){
+    return Inertia::render('Blog');
+});
+Route::get('/contact', function(){
+    return Inertia::render('Blog');
+});
 
 
 Route::get('/login_form', [AuthController::class, 'login']);

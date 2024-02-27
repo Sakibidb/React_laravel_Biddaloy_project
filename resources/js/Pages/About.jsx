@@ -54,8 +54,8 @@ const Home = () => {
       <div className="row">
         <div className="col">
           <div className="section_title_container text-center">
-            <h2 className="section_title">Welcome To Unicat E-Learning</h2>
-            <div className="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu Vestibulum</p></div>
+            <h2 className="section_title">Welcome To Biddaloy</h2>
+            <div className="section_subtitle"><p>A school management system is an information management system for educational institutions to manage student data. It helps teachers get information about students faster, easier and reduces their workload. Student databases in school management systems contain information about the students, such as their exam grades, parent information, medical history, tuition fees, etc.</p></div>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ const Home = () => {
             <div className="about_item_image"><img src="images/about_1.jpg" alt /></div>
             <div className="about_item_title"><a href="#">Our Stories</a></div>
             <div className="about_item_text">
-              <p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
+              <p>School management systems provide skills such as student registration, class documents, grades, analytical grades for students, and other assessment elements. In addition, school management systems are used to plan the curriculum of students, record their presence and manage the needs of students in the school.</p>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ const Home = () => {
             <div className="about_item_image"><img src="images/about_2.jpg" alt /></div>
             <div className="about_item_title"><a href="#">Our Mission</a></div>
             <div className="about_item_text">
-              <p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
+              <p>School management systems provide skills such as student registration, class documents, grades, analytical grades for students, and other assessment elements. In addition, school management systems are used to plan the curriculum of students, record their presence and manage the needs of students in the school.</p>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ const Home = () => {
             <div className="about_item_image"><img src="images/about_3.jpg" alt /></div>
             <div className="about_item_title"><a href="#">Our Vision</a></div>
             <div className="about_item_text">
-              <p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
+              <p>School management systems provide skills such as student registration, class documents, grades, analytical grades for students, and other assessment elements. In addition, school management systems are used to plan the curriculum of students, record their presence and manage the needs of students in the school.</p>
             </div>
           </div>
         </div>
@@ -101,56 +101,11 @@ const Home = () => {
         <div className="col">
           <div className="section_title_container text-center">
             <h2 className="section_title">Why Choose Us</h2>
-            <div className="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+            <div className="section_subtitle"><p>School management systems provide skills such as student registration, class documents, grades, analytical grades for students, and other assessment elements. In addition, school management systems are used to plan the curriculum of students, record their presence and manage the needs of students in the school.</p></div>
           </div>
         </div>
       </div>
-      <div className="row feature_row">
-        {/* Feature Content */}
-        <div className="col-lg-6 feature_col">
-          <div className="feature_content">
-            {/* Accordions */}
-            <div className="accordions">
-              <div className="elements_accordions">
-                <div className="accordion_container">
-                  <div className="accordion d-flex flex-row align-items-center"><div>Award for Best School 2017</div></div>
-                  <div className="accordion_panel">
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  </div>
-                </div>
-                <div className="accordion_container">
-                  <div className="accordion d-flex flex-row align-items-center active"><div>You’re learning from the best.</div></div>
-                  <div className="accordion_panel">
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  </div>
-                </div>
-                <div className="accordion_container">
-                  <div className="accordion d-flex flex-row align-items-center"><div>Our degrees are recognized worldwide.</div></div>
-                  <div className="accordion_panel">
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  </div>
-                </div>
-                <div className="accordion_container">
-                  <div className="accordion d-flex flex-row align-items-center"><div>We encourage our students to go global.</div></div>
-                  <div className="accordion_panel">
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Accordions End */}
-          </div>
-        </div>
-        {/* Feature Video */}
-        <div className="col-lg-6 feature_col">
-          <div className="feature_video d-flex flex-column align-items-center justify-content-center">
-            <div className="feature_video_background" style={{backgroundImage: 'url(images/video.jpg)'}} />
-            <a className="vimeo feature_video_button" href="https://player.vimeo.com/video/99340873?title=0" title="OH, PORTUGAL - IN 4K - Basti Hansen - Stock Footage">
-              <img src="images/play.png" alt />
-            </a>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
   {/* Team */}
@@ -159,8 +114,8 @@ const Home = () => {
       <div className="row">
         <div className="col">
           <div className="section_title_container text-center">
-            <h2 className="section_title">The Best Tutors in Town</h2>
-            <div className="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+            <h2 className="section_title">The Best Teacher in Biddaloy</h2>
+            <div className="section_subtitle"><p>We have sufficient exprert teacher in our biddaloy.</p></div>
           </div>
         </div>
       </div>

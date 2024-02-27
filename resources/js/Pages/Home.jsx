@@ -23,43 +23,24 @@ const Home = () => {
       <ul className="menu_mm">
         <li className="menu_mm"><a href="index.html">Home</a></li>
         <li className="menu_mm"><a href="#">About</a></li>
-        <li className="menu_mm"><a href="#">Courses</a></li>
-        <li className="menu_mm"><a href="#">Blog</a></li>
-        <li className="menu_mm"><a href="#">Page</a></li>
+        <li className="menu_mm"><a href="#">Class</a></li>
+        <li className="menu_mm"><a href="#">Teacher</a></li>
+        <li className="menu_mm"><a href="#">Student Attendance</a></li>
         <li className="menu_mm"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </div>
   {/* Home */}
-  <div className="home">
-    <div className="home_slider_container">
-      {/* Home Slider */}
-      <div className="home_slider">
-        <div>
-          <div className="home_slider_background" style={{backgroundImage: 'url(images/home_slider_1.jpg)'}} />
-          <div className="home_slider_content">
-            <div className="container">
-              <div className="row">
-                <div className="col text-center">
-                  <div className="home_slider_title">The Premium System Education</div>
-                  <div className="home_slider_subtitle">Future Of Education Technology</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   {/* Features */}
-  <div className="features">
+  <div className="features mt-20">
     <div className="container">
       <div className="row">
         <div className="col">
           <div className="section_title_container text-center">
-            <h2 className="section_title h2 text-black">Welcome To Unicat E-Learning</h2>
-            <div className="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+            <h2 className="section_title h2 text-black">Welcome To Biddaloy</h2>
+            <div className="section_subtitle"><p>A school management system is an information management system for educational institutions to manage student data. It helps teachers get information about students faster, easier and reduces their workload. Student databases in school management systems contain information about the students, such as their exam grades, parent information, medical history, tuition fees, etc.School management systems provide skills such as student registration, class documents, grades, analytical grades for students, and other assessment elements. In addition, school management systems are used to plan the curriculum of students, record their presence and manage the needs of students in the school.</p></div>
           </div>
         </div>
       </div>
@@ -106,8 +87,8 @@ const Home = () => {
       <div className="row">
         <div className="col">
           <div className="section_title_container text-center">
-            <h2 className="section_title">Popular Online Courses</h2>
-            <div className="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+            <h2 className="section_title">Teacher</h2>
+            <div className="section_subtitle"><p>Biddaloy Teachers</p></div>
           </div>
         </div>
       </div>

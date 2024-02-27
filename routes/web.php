@@ -7,13 +7,14 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ClassController;
 use App\Http\Controllers\ClassSubjectController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\frontend\TeacherController as FrontendTeacherController;
 use App\Http\Controllers\ParentController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\SubjectController;
 use App\Http\Controllers\TeacherController;
 use App\Http\Controllers\UserController;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -39,8 +40,14 @@ Route::get('/blog', function(){
     return Inertia::render('Blog');
 });
 Route::get('/contact', function(){
-    return Inertia::render('Blog');
+    return Inertia::render('Contact');
 });
+Route::get('/teacher', function(){
+    $teacher = User::where('user_type', 2)->get();
+        return Inertia::render('Teacher', compact('teacher'));
+});
+
+// Route::get('teacher', [FrontendTeacherController::class, 'index']);
 
 
 Route::get('/login_form', [AuthController::class, 'login']);

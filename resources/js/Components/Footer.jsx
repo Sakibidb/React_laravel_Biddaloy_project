@@ -14,11 +14,11 @@ const Footer = () => {
                 <div className="footer_section footer_about">
                   <div className="footer_logo_container">
                     <a href="#">
-                      <div className="footer_logo_text">Unic<span>at</span></div>
+                      <div className="footer_logo_text">Bidda<span>loy</span></div>
                     </a>
                   </div>
                   <div className="footer_about_text">
-                    <p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
+                    <p>Biddaloy is a school management Website</p>
                   </div>
                   <div className="footer_social">
                     <ul>
@@ -36,9 +36,9 @@ const Footer = () => {
                   <div className="footer_title">Contact Us</div>
                   <div className="footer_contact_info">
                     <ul>
-                      <li>Email: Info.deercreative@gmail.com</li>
+                      <li>Email: biddaloy.edu@gmail.com</li>
                       <li>Phone:  +(88) 111 555 666</li>
-                      <li>40 Baria Sreet 133/2 New York City, United States</li>
+                      <li>40 Baria Sreet 133/2, Dhanmandi, Dhaka, Bangladesh</li>
                     </ul>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const Footer = () => {
                       <li><a href="about.html">About</a></li>
                       <li><a href="contact.html">Contact</a></li>
                       <li><a href="#">Features</a></li>
-                      <li><a href="courses.html">Courses</a></li>
+                      <li><a href="courses.html">Teacher</a></li>
                       <li><a href="#">Events</a></li>
                       <li><a href="#">Gallery</a></li>
                       <li><a href="#">FAQs</a></li>

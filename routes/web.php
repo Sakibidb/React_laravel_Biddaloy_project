@@ -13,8 +13,11 @@ use App\Http\Controllers\StudentController;
 use App\Http\Controllers\SubjectController;
 use App\Http\Controllers\TeacherController;
 use App\Http\Controllers\UserController;
+use App\Models\ClassModel;
+use App\Models\StudentAttendanceModel;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -36,14 +39,19 @@ Route::get('/', function(){
 Route::get('/about', function(){
     return Inertia::render('About');
 });
-Route::get('/blog', function(){
-    return Inertia::render('Blog');
+Route::get('/attendance', function(){
+
+    $students    = User::all();
+    $classs    = ClassModel::all();
+    $attendance = StudentAttendanceModel::whereIn('attendance_type', [1, 2, 3, 4])->get();
+
+    return Inertia::render('Attendance', compact('attendance', 'students', 'classs'));
 });
 Route::get('/contact', function(){
     return Inertia::render('Contact');
 });
 Route::get('/teacher', function(){
-    $teacher = User::where('user_type', 2)->get();
+    $teacher = User::where('user_type',2)->get();
         return Inertia::render('Teacher', compact('teacher'));
 });
 
